@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="objectarray.css"/>
+</head>
+<body>
+    <form action="feed.html">
+    Name <input type="text" id="nam"> <br><br>
+    Password <input type="password" id="pas"><br><br>
+    <input type="submit" value="Sign In" id="sign" onclick="return signin()">
+    </form>
+    <h1>Enter Your Groceries</h1><br>
+    <input type="text" id="userInput" onkeydown="return keypr(event)"> &nbsp; <button id="submitBtn" onclick=" addGroceries()">ADD</button><br><br>
+    
+    <ol id="ol">
+
+    </ol>
+    
+    <script src="objectarray.js"></script>
+</body>
+</html>
